@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <title>Home page</title>
+      <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-          <div class="header">
-            <img class="logo">
-            <ul class="links">
-              <li></li>
-            </ul>
-          </div>  
+<body>
+  <!-- first section (navy background) -->
+  <div class="section-one">
+    <div class="header">
+      <h3 id="logo">The Matriline</h3>
+      <ul>
+        <li><a href="#">About Blue Whales</a></li>
+        <li><a href="#">About White Sharks</a></li>
+        <li><a href="#">About Dolphins</a></li>
+      </ul>
+    </div>  
+    <div class="content">
+      <div id="left-text">
+        <h1 id="hero">About Orca Whales</h1>
+        <p id="sub-text">The orca is a toothed whale and the largest member of the oceanic dolphin family. It is the only extant species in the genus Orcinus and is recognizable by its black-and-white patterned body. A cosmopolitan species, it is found in diverse marine environments, from Arctic to Antarctic regions to tropical seas.</p>
+        <button>Sign up</button>
+      </div>
+      <img id="central-image" src="/images/orca-logo.jpg"  alt="cute drawing of an orca">
+    </div>
+  </div>
+
+  <!-- second section (info squares) -->
+  <div class="section-two">
+      <h2 id="title">Some random facts about Orcas.</h2>
+  <div id="info-container">  
+    <div class="info">
+        <img class="info-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Female_orca_scale.png/220px-Female_orca_scale.png" alt="comparison of a human next to an orca">
+        <p class="text"> Orcas are the largest extant members of the dolphin family. Males typically range from 6 to 8 m long.</p>
+        <!-- This picture shows a 5.4 meter female killer whale compared to 1.8 meter human scuba diver -->
+    </div>
+    <div class="info">
+      <img class="info-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Orca_porpoising.jpg/220px-Orca_porpoising.jpg" alt="orca jumping out of the water">
+      <p class="text">Orcas are found in all oceans and most seas, they clearly prefer higher latitudes and coastal areas over pelagic environments.</p>
+      <!-- .Due to their enormous range, numbers, and density, relative distribution is difficult to estimate, but -->
+    </div>
+    <div class="info">
+      <img class="info-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/220px-Killerwhales_jumping.jpg" alt="two orcas jumping out of the water">
+      <p class="text">Orcas are apex predators with a diverse diet. Individual populations often specialize in particular types of prey.</p>
+      <!-- This includes a variety of fish, sharks, rays, and marine mammals such as seals and other dolphins and whales. -->
+    </div>
+    <div class="info">
+      <img class="info-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Orca_with_iceball_cropped.JPG/220px-Orca_with_iceball_cropped.JPG" alt="an orca poking its head above icy water">
+      <p class="text"> Orcas frequently engage in surface behaviour such as breaching (jumping completely out of the water) and tail-slapping.</p>
+      <!-- Day-to-day orca behaviour generally consists of foraging, travelling, resting and socializing. -->
+    </div>
+    </div>
+  </div>
+
+  <!-- third section (quote) -->
+  <div class="section-three">
+    <h2 id="quote">Orcas pass their unique behaviors, like dialects, hunting strategies, and social dynamics, from generation to generation. </h2>
+    <h3 id="quote-author">- National Geographic</h3>
+  </div>
+
+  <!-- fourth section (alert) -->
+   <div class="section-four">
+    <div id="info-square"> 
+      <div id="text-container">
+        <p id="info-main">Want to learn more?</p>
+        <p id="info-sub">Feel free to sign up to our newsletter to get more content about all things ocean.</p>
+      </div>
+      <button id="lower-button">Sign up</button>
+    </div>
+   </div>
+
+     <!-- footer -->
+  <div id="footer">
+    Project for: The Odin Project
+  </div>
+
     </body>
 </html>
